@@ -1,0 +1,73 @@
+body {
+	background: black;
+}
+* {
+	border: 0px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: auto;
+	padding: 5px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-right: 2px;
+}
+.postcard-header h1 {
+	width: 600px;
+	margin: 0px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+	font-size: 16px;
+}
+.body-left {
+	padding: 5px;
+	font-size: 16px;
+	text-align: justify;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.body-right {
+	padding: 10px;
+	font-size: 10px;
+	padding: 10px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+input {
+	border: 0;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+	width: 100%;
+	margin: 0px;
+}
+
+p {
+	font-size: 16px;
+	margin-top: auto;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	display: flex;
+	background-color: grey;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	margin: 0 auto;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
